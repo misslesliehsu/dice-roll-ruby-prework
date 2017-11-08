@@ -8,5 +8,5 @@
 
 def roll
   array = (1..6).to_a
-  return array[rand(1..6)]
+  return array[rand(0..5)]
 end
